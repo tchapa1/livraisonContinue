@@ -13,7 +13,7 @@ pipeline
 		stage('Build') {
 				steps{
 					script{
-						sh "ansible-playbook ansible/build.yml -i /home/tchapa/Bureau/myapp/myapp/Ansible/inventory/host.yml"
+						sh "ansible-playbook /home/tchapa/Bureau/myapp/myapp/Ansible/build.yml -i /home/tchapa/Bureau/myapp/myapp/Ansible/inventory/host.yml"
 						}
 					}
 				}
