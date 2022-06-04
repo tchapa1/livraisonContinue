@@ -5,7 +5,7 @@ pipeline
 		stage('Pull') {
 				steps{
 					script{
-						checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[ credentialsId: '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', url: 'https://github.com/tchapa1/livraisonContinue.git']]])
+						checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[ credentialsId: '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', url: 'https://github.com/tchapa1/livraisonContinue.git']]])
 						}
 					}
 				}
