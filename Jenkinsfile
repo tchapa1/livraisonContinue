@@ -20,7 +20,7 @@ pipeline
 		stage('docker') {
 				steps {
 					script{
-						sh "ansible-playbook /home/tchapa/Desktop/myapp/myapp/Ansible/docker.yml -i /home/tchapa/Desktopmyapp/myapp/Ansible/inventory/host.yml"
+						sh "ansible-playbook /home/tchapa/Desktop/myapp/myapp/Ansible/docker.yml -i /home/tchapa/Desktop/myapp/myapp/Ansible/inventory/host.yml"
 						}
 					}
 
